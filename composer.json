@@ -1,5 +1,5 @@
 {
-    "name": "shureban/laravel-prometheus",
+    "name": "movemoveapp/laravel-prometheus",
     "description": "Laravel SDK for working with prometheus metrics",
     "keywords": [
         "prometheus",
@@ -33,7 +33,7 @@
     "require": {
         "php": "^8.1",
         "ext-json": "*",
-        "predis/predis": "^2.0"
+        "predis/predis": "^2.0 || ^3.0"
     },
     "extra": {
         "laravel": {

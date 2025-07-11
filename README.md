@@ -1,4 +1,16 @@
-# Laravel prometheus metrics
+# Laravel Prometheus Metrics (Fork)
+
+[![Latest Stable Version](http://poser.pugx.org/movemoveapp/laravel-prometheus/v)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
+[![Total Downloads](http://poser.pugx.org/movemoveapp/laravel-prometheus/downloads)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
+[![Latest Unstable Version](http://poser.pugx.org/movemoveapp/laravel-prometheus/v/unstable)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
+[![License](http://poser.pugx.org/movemoveapp/laravel-prometheus/license)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
+[![PHP Version Require](http://poser.pugx.org/movemoveapp/laravel-prometheus/require/php)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
+
+> ⚠️ This is a fork of the original package [shureban/laravel-prometheus](https://github.com/shureban/laravel-prometheus),  
+> with added support for `predis/predis ^3.0`.
+
+All original functionality is preserved.  
+The package is designed to collect Prometheus metrics from a Laravel application using a Redis-based storage backend.
 
 ## Installation
 
