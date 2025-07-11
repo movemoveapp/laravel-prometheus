@@ -6,8 +6,8 @@
 [![License](http://poser.pugx.org/movemoveapp/laravel-prometheus/license)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
 [![PHP Version Require](http://poser.pugx.org/movemoveapp/laravel-prometheus/require/php)](https://packagist.org/packages/movemoveapp/laravel-prometheus)
 
-> ⚠️ This is a fork of the original package [shureban/laravel-prometheus](https://github.com/shureban/laravel-prometheus),  
-> with added support for `predis/predis ^3.0`.
+> ⚠️ This is a friendly fork of [shureban/laravel-prometheus](https://github.com/shureban/laravel-prometheus),  
+> created to support `predis/predis ^3.0` until the original maintainer has a chance to fix it 😄
 
 All original functionality is preserved.  
 The package is designed to collect Prometheus metrics from a Laravel application using a Redis-based storage backend.
@@ -17,7 +17,7 @@ The package is designed to collect Prometheus metrics from a Laravel application
 Require this package with composer using the following command:
 
 ```bash
-composer require shureban/laravel-prometheus
+composer require movemoveapp/laravel-prometheus
 ```
 
 Add the following class to the `providers` array in `config/app.php`:
@@ -188,3 +188,12 @@ of using string type hinting
 return response(new RenderTextFormat(), Response::HTTP_OK, ['Content-Type' => RenderTextFormat::MIME_TYPE]);
 ```
 
+---
+
+## 👋 A note to Shureban
+
+Hey bro, just keeping the package warm for you.  
+When you're ready — feel free to take back control.  
+Until then, your code is doing great in the wild.
+
+❤️ Pipisco
